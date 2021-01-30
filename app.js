@@ -6,7 +6,7 @@ const express = require('express')
 // create the express app
 const app = express()
 
-const carsRouter = require('./carsRouter.js')
+const carsRouter = require('./routes/cars.js')
 
 // configure express middleware
 app.use(express.json())
